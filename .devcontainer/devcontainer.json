@@ -12,5 +12,7 @@
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
     "workspaceFolder": "/workspaces/devcontainers",
-    "postCreateCommand": "bash startup.sh"
+    "postCreateCommand": "bash startup.sh",
+    //"postCreateCommand": "npm install && npx db..."
+    "postStartCommand": "cd api && npm run start"
 }
