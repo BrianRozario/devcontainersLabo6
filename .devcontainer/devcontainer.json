@@ -10,5 +10,6 @@
     },
 
     "dockerComposeFile": "docker-compose.yml",
-    "service": "app"
+    "service": "app",
+    "workspaceFolder": "/workspaceFolder/$(localWorkspaceFolderBasename)"
 }
