@@ -11,5 +11,6 @@
 
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
-    "workspaceFolder": "/workspaceFolder/$(localWorkspaceFolderBasename)"
+    "workspaceFolder": "/workspaces/devcontainers",
+    "postCreateCommand": "bash startup.sh"
 }
